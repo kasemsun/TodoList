@@ -1,8 +1,12 @@
 html {
-  background-color: #E4E9FD;
-  background-image: -webkit-linear-gradient(65deg, #A683E3 50%, #E4E9FD 50%);
-  min-height: 1000px;
-  font-family: 'helvetica neue';
+  background: rgb(228, 233, 253);
+  background: linear-gradient(180deg, rgba(228, 233, 253, 1) 0%, rgba(166, 131, 227, 1) 81%);
+  background-repeat: no-repeat;
+  background-position: right top;
+  font-family: 'Helvetica Neue', sans-serif; /* Added a generic sans-serif font as a fallback */
+  margin: 0; /* Remove default margin to ensure the background covers the entire viewport */
+  padding: 0; /* Remove default padding as well */
+  height: 100%; /* Ensure the body takes up the full viewport height */
 }
 
 h1 {
